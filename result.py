@@ -54,9 +54,9 @@ def generate_codes():
             codes.append(prefix+"0"+str(i))
         else:
             codes.append(prefix+str(i))
-    for letter in range(ord('A'), ord('D') + 1):
-        for number in range(10):
-            codes.append(prefix+chr(letter)+str(number))    
+    # for letter in range(ord('A'), ord('D') + 1):
+    #     for number in range(10):
+    #         codes.append(prefix+chr(letter)+str(number))    
     return codes
 if __name__=="__main__":
     regids=generate_codes()
