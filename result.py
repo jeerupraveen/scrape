@@ -66,3 +66,4 @@ if __name__=="__main__":
         results.append(result)
     df=pd.DataFrame(results)
     df.to_csv('it.csv',index=False)
+print("hello")
